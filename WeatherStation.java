@@ -32,4 +32,9 @@ public class WeatherStation {
       return this.state.equals(st);
    }
    
+   /* Produce the latitude of this station */
+   public double getLatitude() {
+      return lat;
+   }
+   
 }
